@@ -1,0 +1,13 @@
+Source: ros-iron-ecl-converters-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-cmake-ros, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ecl-config, ros-iron-ecl-license, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters_lite
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-converters-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-config, ros-iron-ecl-license, ros-iron-ros-workspace
+Description: These are a very simple version of some of the functions in ecl_converters suitable for firmware development.
+ That is, there is no use of new, templates or exceptions.
