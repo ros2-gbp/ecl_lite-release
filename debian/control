@@ -1,0 +1,12 @@
+Source: ros-iron-ecl-sigslots-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-ros, ros-iron-ecl-build, ros-iron-ecl-config, ros-iron-ecl-errors, ros-iron-ecl-license, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/ecl_sigslots_lite
+Standards-Version: 3.9.2
+
+Package: ros-iron-ecl-sigslots-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-config, ros-iron-ecl-errors, ros-iron-ecl-license, ros-iron-ros-workspace
+Description: This avoids use of dynamic storage (malloc/new) and thread safety (mutexes) to provide a very simple sigslots implementation that can be used for *very* embedded development.
