@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-config
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-googletest <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-ros, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, ros-jazzy-ecl-build, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_config
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: These tools inspect and describe your system with macros, types and functions.
