@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-time-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/ecl_time_lite
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-time-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-build, ros-jazzy-ecl-config, ros-jazzy-ecl-errors, ros-jazzy-ecl-license, ros-jazzy-ros-workspace
+Description: Provides a portable set of time functions that are especially useful for porting other code or being wrapped by higher level c++ classes.
