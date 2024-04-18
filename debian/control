@@ -1,0 +1,12 @@
+Source: ros-jazzy-ecl-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-ros, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_lite
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ecl-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-config, ros-jazzy-ecl-converters-lite, ros-jazzy-ecl-errors, ros-jazzy-ecl-io, ros-jazzy-ecl-sigslots-lite, ros-jazzy-ecl-time-lite, ros-jazzy-ros-workspace
+Description: Libraries and utilities for embedded and low-level linux development.
