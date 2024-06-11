@@ -1,0 +1,13 @@
+Source: ros-humble-ecl-converters-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ecl-config, ros-humble-ecl-license, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters_lite
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-converters-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-config, ros-humble-ecl-license, ros-humble-ros-workspace
+Description: These are a very simple version of some of the functions in ecl_converters suitable for firmware development.
+ That is, there is no use of new, templates or exceptions.
