@@ -1,3 +1,34 @@
+## ecl_lite (humble) - 1.2.0-1
+
+The packages in the `ecl_lite` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble ecl_lite` on `Tue, 11 Jun 2024 22:20:55 -0000`
+
+These packages were released:
+- `ecl_config`
+- `ecl_console`
+- `ecl_converters_lite`
+- `ecl_errors`
+- `ecl_io`
+- `ecl_lite`
+- `ecl_sigslots_lite`
+- `ecl_time_lite`
+
+Version of package(s) in repository `ecl_lite`:
+
+- upstream repository: https://github.com/stonier/ecl_lite.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## ecl_lite (rolling) - 1.2.0-1
 
 The packages in the `ecl_lite` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --edit-track --track rolling --rosdistro rolling ecl_lite` on `Tue, 27 Sep 2022 03:58:01 -0000`
