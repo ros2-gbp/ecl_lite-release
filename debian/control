@@ -1,0 +1,12 @@
+Source: ros-humble-ecl-console
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-license, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/ecl_console
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-build, ros-humble-ecl-config, ros-humble-ecl-license, ros-humble-ros-workspace
+Description: Color codes for ansii consoles.
