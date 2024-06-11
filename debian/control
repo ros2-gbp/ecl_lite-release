@@ -1,0 +1,12 @@
+Source: ros-humble-ecl-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_lite
+Standards-Version: 3.9.2
+
+Package: ros-humble-ecl-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ecl-config, ros-humble-ecl-converters-lite, ros-humble-ecl-errors, ros-humble-ecl-io, ros-humble-ecl-sigslots-lite, ros-humble-ecl-time-lite, ros-humble-ros-workspace
+Description: Libraries and utilities for embedded and low-level linux development.
