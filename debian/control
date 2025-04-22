@@ -1,0 +1,12 @@
+Source: ros-kilted-ecl-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_lite
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-config, ros-kilted-ecl-converters-lite, ros-kilted-ecl-errors, ros-kilted-ecl-io, ros-kilted-ecl-sigslots-lite, ros-kilted-ecl-time-lite, ros-kilted-ros-workspace
+Description: Libraries and utilities for embedded and low-level linux development.
