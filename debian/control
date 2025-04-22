@@ -1,0 +1,12 @@
+Source: ros-kilted-ecl-console
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-ecl-build, ros-kilted-ecl-config, ros-kilted-ecl-license, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/ecl_console
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ecl-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-build, ros-kilted-ecl-config, ros-kilted-ecl-license, ros-kilted-ros-workspace
+Description: Color codes for ansii consoles.
