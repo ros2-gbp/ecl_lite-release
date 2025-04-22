@@ -1,0 +1,7 @@
+ros-kilted-ecl-sigslots-lite (1.2.0-5noble) noble; urgency=high
+
+  * [sigslots_lite] new c++14 insists on const expr init in the same translation unit, #38 <https://github.com/stonier/ecl_lite/pull/38>
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 27 Sep 2022 05:00:00 -0000
+
+
