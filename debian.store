@@ -1,1 +1,1 @@
-{"base": "43230d87", "parent": "debian/rolling/ecl_sigslots_lite", "previous": "801baf66", "trim": "", "trimbase": ""}
+{"base": "e08ddb2d357c", "parent": "debian/kilted/ecl_sigslots_lite", "previous": "d057779f42c8", "trim": "", "trimbase": ""}
