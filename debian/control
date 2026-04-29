@@ -1,0 +1,12 @@
+Source: ros-lyrical-ecl-time-lite
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-ros, ros-lyrical-ecl-build, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-license, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/ecl_time_lite
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ecl-time-lite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-build, ros-lyrical-ecl-config, ros-lyrical-ecl-errors, ros-lyrical-ecl-license, ros-lyrical-ros-workspace
+Description: Provides a portable set of time functions that are especially useful for porting other code or being wrapped by higher level c++ classes.
